@@ -101,6 +101,7 @@
                     <execution>
                         <goals>
                             <goal>build</goal>
+                            <goal>package</goal>
                         </goals>
                     </execution>
                 </executions>
