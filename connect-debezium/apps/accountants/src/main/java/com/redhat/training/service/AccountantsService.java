@@ -31,9 +31,9 @@ public class AccountantsService {
 
     @Transactional
     public Long create(Accountant accountant) {
-        if (accountant.getId() != null) {
+        /*if (accountant.getId() != null) {
             throw new WebApplicationException("Id was invalidly set on request.", 422);
-        }
+        }*/
 
         accountant.setUsername(NameUtil.getRandomName());
         accountant.setSsn(SSNUtil.getRandomSSN());
