@@ -1,0 +1,1 @@
+Main-Class: com.redhat.training.rest.AccountantResource
